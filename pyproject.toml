@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "backend-iot"
+version = "0.1.0"
+description = "Backend for senor data"
+authors = ["Tom Nordal <tnordal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+influxdb-client = "^1.48.0"
+paho-mqtt = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
